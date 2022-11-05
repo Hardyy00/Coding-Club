@@ -1,0 +1,83 @@
+* {
+  color: whitesmoke;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: rgb(21, 21, 21);
+  width: 100%;
+  height: 72px;
+  padding: 10px;
+}
+
+nav h1 {
+  display: inline-block;
+  background-color: inherit;
+  margin-left: 60px;
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+nav span {
+  position: relative;
+  width: 550px;
+  float: right;
+  top: 12px;
+  right: 40px;
+  font-size: 22px;
+  padding: 10px;
+}
+
+nav span a {
+  margin: 15px;
+  text-decoration: none;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 86vh;
+  background-image: url("images/camera.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.main {
+  width: 700px;
+  height: 400px;
+  position: absolute;
+  top: 22%;
+  left: 31%;
+}
+
+.main h1 {
+  font-size: 55px;
+  text-align: center;
+}
+
+.main p {
+  margin-left: 25%;
+}
+.main a {
+  text-decoration: none;
+  font-size: 24px;
+  margin: 10px;
+  border: 3px;
+  padding: 10px;
+}
+
+.main a:first-of-type {
+  border: 5px solid white;
+  border-radius: 6px;
+}
+
+.main a:last-of-type {
+  background-color: white;
+  color: black;
+  border: 5px solid white;
+}
